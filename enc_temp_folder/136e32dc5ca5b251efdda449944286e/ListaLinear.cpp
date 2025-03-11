@@ -129,15 +129,13 @@ void excluirElemento()
 	int posicao = posicaoElemento(elementoExcluir);
 
 	if (posicao == -1) {
-		cout << "Elemento Não está na lista" << endl;
+		cout << "Elemento Não está na lista";
 	}
 	else {
 		for (int li = posicao; li < nElementos; li++) {
 			lista[li] = lista[li + 1];
 		}
 		nElementos --;
-
-		
 		
 
 	}
